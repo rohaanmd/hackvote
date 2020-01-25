@@ -1,0 +1,120 @@
+body
+{
+    background: lightgray;
+}
+.head
+{
+    border: 2px red dotted;
+}
+.h1
+{
+    font-size: 50px;
+    font-family: cursive;
+}
+.h2
+{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.body
+{
+    /* border: 5px lawngreen ridge; */
+    height: 500px;
+    
+}
+.list
+{  
+    /* border: 5px hsl(240, 100%, 50%) ridge; */
+}
+.bjp
+{
+    background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,0.5690651260504201) 0%, rgba(148,184,233,1) 100%);    margin: auto;
+    width: 70%;
+    border: 10px crimson groove;
+    display: flex;
+    /* height: 200px; */
+}
+.details
+{
+    display:flex;
+    /* border: 2px red dashed; */
+    flex-grow: 4;
+}
+.vote
+{ 
+    /* background-color:#aa5c80; */
+    /* flex-grow: 1.5; */
+    /* border: 2px hotpink ridge; */
+}
+.votebutton
+{
+    font-family: cursive;
+    font-size: 20px;
+    background-color: silver;
+    color: black;
+    height: 50px;
+    width: 50%;
+    border-radius: 20px 20px 20px 20px;
+    margin: 70px;
+    margin-top: 100px;
+    /* margin-left: 100px; */
+}
+.votebutton:hover
+{
+    box-shadow: 2px 2px 2px ;
+    background-color: #E73C7E;
+}
+.sign
+{
+    background-color: #222a2a;
+    border-radius: 500px;
+    width: 35%;
+    height: 90%;
+    border: 2px black ridge ;
+}
+.bjplogo
+{
+  margin: 50px;
+  height: 150px;
+}
+.aaplogo
+{
+  margin: 30px;
+  height: 150px;
+}
+
+.partydet
+{
+    width: 100%;
+    /* border: 2px orange groove; */
+}
+.d1
+{
+    color: whitesmoke;
+    background-color: black;    
+    text-align: center;
+    /* border: 2px solid yellow; */
+    /* margin: 20px; */
+    font-size: 35px;
+    /* font-style: italic; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.d2
+{
+    background-color: silver;
+}
+.candidatepic
+{
+    margin-left: 130px;
+    height:150px;
+}
+.d3
+{
+    background-color: gray;
+    /* color: whitesmoke; */
+    text-align: center;
+    /* border: 2px solid yellow; */
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
