@@ -7,7 +7,7 @@
 height: 100px;    
 display: flex;
 justify-content: space-evenly;   
-background: lightgray; 
+background: #e73f7c;
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d995de', endColorstr='#bd496c', GradientType=1 );
 }
 .nav
@@ -233,14 +233,7 @@ position: absolute;
     text-align: center;
     font-family: cursive;
 }   
-.gender
-{
-    margin-top: 10px;
-}
-.city
-{
-    margin-top: 10px;
-}
+
 .pw i 
 {
     position: absolute;
