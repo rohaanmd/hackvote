@@ -1,0 +1,463 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.head
+{    
+height: 100px;    
+display: flex;
+justify-content: space-evenly;   
+background: lightgray; 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d995de', endColorstr='#bd496c', GradientType=1 );
+}
+.nav
+{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    background-color:azure;
+}
+.subnav1,.subnav2,.subnav3,.subnav4,.subnav5,.subnav6
+{padding: 5px;
+font-size: 16px;
+}
+.marque
+{
+    background-color: black;
+    color: aqua;
+    font-size: 20px;
+    font-family: cursive;
+    height: 30px;
+}
+.subhead1
+{
+    margin-top: 15px;
+    font-size: 50px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    /* color: #23D5AB; */
+    /* text-shadow: 3px 3px 3px red; */
+}
+/* .subhead2
+{
+    font-size: 20px;
+    margin-top: 1%;
+} */
+.searchinput{
+    border: 2px ridge red;
+    font-size: 20px;
+    margin-top: 5%;
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    border-radius: 15px 15px 15px;
+    width: 50%;
+    height: 38px;
+}
+.head .searchinput:hover
+{
+    width: 100%;
+    transition: all 1s;
+}
+.subhead3
+{
+ font-size: 18px;
+ margin-top: 1%;
+}
+
+.wall{
+    width: 30%;
+    height:600px;
+    color: #fff;
+    background: linear-gradient(-45deg,#EE7752, #E73C7E, #23A6D5, #23D5AB);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;    ;
+    -webkit-animation: change 10s ease-in-out infinite    ;
+}
+@keyframes change{
+    0%{
+        background-position: 0 50%;
+
+    }
+    50%{
+        background-position: 100% 50%;
+
+    }
+    100%{
+        background-position: 0 50%;
+
+    }
+}
+.walltext
+{
+    margin-top:30% ;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 40%;
+}
+.walltext1
+{
+    font-size: 50px;
+}
+.walltext2
+{
+    font-size: 80px;
+}
+
+.main2{
+        background-color: white;
+        border: 2px black solid;
+        display: flex;
+}
+ .form
+ { 
+     /* border: 2px solid red; */
+    margin-right:40px;
+    /* margin-left: 80px;   */
+ }
+
+.photo{
+    /* border: 2px solid green; */
+    display: inline-block;
+    height: 500px;
+    width: 30%;
+}
+
+
+ .headingform
+ {
+    margin-top: 40px;
+    margin-left:20px;
+    margin-bottom: 40px;
+    font-size: 30px; 
+    font-family: cursive;
+ }
+ .first i
+ {
+    position: absolute;
+ }
+ .first
+ {   
+     margin-top: 10px;
+     margin-left: 100px;
+     display: inline-block;
+ }
+ .fa-user
+ {
+padding: 5px;
+ }
+ .name:hover .first
+ {
+ text-shadow: 5px 5px 5px rgb(149, 33, 196);
+ }
+ .input{
+    display: inline-block;
+}
+.fa-user{
+    margin-right: 10px;
+}
+
+.finput{
+       border-radius: 5px;
+       width: 100%;
+       padding: 5px;
+       text-align: center;
+       font-family: cursive;
+    }
+ .minput{
+     border-radius: 5px;
+     width: 100%;
+     padding: 5px;
+     text-align: center;
+     font-family: cursive;
+ }                  
+ .middle{
+     margin-top: 10px;
+     display: inline-block;
+     margin-left: 40px;
+}
+ .linput{
+    border-radius: 5px;
+     width: 100%;
+     padding: 5px;
+     text-align: center;
+     font-family: cursive;
+}
+.last{
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 40px;
+}
+.email i
+{
+    position: absolute;
+}
+
+.email
+{
+    margin-top: 10px;
+    width: 100%;
+}
+.fa-envelope
+{
+padding: 5px;
+}
+.einput
+{
+     border-radius: 5px;
+     padding: 5px;
+     width: 100%;
+     text-align: center;
+     font-family: cursive;
+    }
+
+.number i
+{
+position: absolute;
+}
+.number{
+    margin-top: 10px;
+    width: 100%;
+}
+.fa-phone
+{
+    padding: 5px;
+}
+    .number:hover
+    {
+    text-shadow: 5px 5px 5px rgb(149, 33, 196);
+    }
+.ninput{
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    font-family: cursive;
+}   
+.gender
+{
+    margin-top: 10px;
+}
+.city
+{
+    margin-top: 10px;
+}
+.pw i 
+{
+    position: absolute;
+}
+.pw
+{   
+    margin-left: 100px;
+    margin-top: 10px;
+    display: inline-block;
+}
+.fa-lock
+{
+padding: 5px;
+}
+.pinput
+{
+     border-radius: 5px;
+     width: 100%;
+     padding: 5px;
+     text-align: center;
+     font-family: cursive;
+    }
+.confirm
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 47px;
+}
+.confirm i
+{
+position: absolute;
+}
+.cinput
+{
+     border-radius: 5px;
+     width: 100%;
+     padding: 5px;
+     text-align: center;
+     font-family: cursive;
+    }
+.button
+{   margin-top: 20px;
+    margin-left:40%;
+    /* font-family: pacifico; */
+}
+option
+{
+    font-family: cursive;
+}
+.sinput
+{ 
+    display: flex;
+    justify-content: space-evenly;
+    background:tomato;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d995de', endColorstr='#bd496c', GradientType=1 );
+    font-family: 'Times New Roman', Times, serif;    
+    border-radius: 25px 25px 25px 25px;
+    width: 100px;
+    height: 60px;
+    color: white;
+    font-style: bold;
+}
+.sinput:hover
+{ 
+    box-shadow: 5px 5px 5px #E73C7E;
+}
+.message
+{
+  border: 2px red groove;
+  margin-top: 2%;
+  margin-left: 38% ;
+  margin-right: 35%;   
+}
+@media screen and (max-width:1102px)
+{
+    .main2
+    {flex-wrap: wrap;
+    }
+    .wall
+    {
+        width: 100%;
+        height: 300px;
+    }
+    .form
+    {
+        /* margin-left: 400px;/ */
+        /* margin-right: 300px; */
+    }
+    .walltext
+    {
+        margin-top:10% ;
+        margin-right: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+    } 
+
+
+}
+@media screen and (max-width:415px)
+{
+    .headingform
+    {
+       margin-top: 40px;
+       margin-left: 15%%;
+       margin-bottom: 30px;
+       font-size: 30px; 
+    }
+    .form
+    { 
+       /* margin-right:5%; */
+       margin-left: 5%;  
+    }   
+     .first
+    {   margin-left:13%; 
+        margin-top: 10px;
+        /* display: inline-block; */
+    }
+      .finput{
+          border-radius: 5px;
+          width: 100%;
+          padding: 5px;
+          text-align: center;
+   }
+    .minput{
+        border-radius: 5px;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+    }                  
+    .middle{
+        margin-top: 10px;
+        /* display: inline-block; */
+        margin-left: 40px;
+   }
+    .linput{
+       border-radius: 5px;
+        width: 100%;
+        padding: 5px;
+        text-align: center;
+   }
+   .last{
+       margin-top: 10px;
+       /* display: inline-block; */
+       margin-left: 40px;
+   }
+   
+   .email
+   {
+       margin-top: 10px;
+       width: 100%;
+   }
+   .einput
+   {
+        border-radius: 5px;
+        padding: 5px;
+        width: 100%;
+        text-align: center;}
+    .number
+    {   margin-left: 15%;
+        margin-top: 10px;
+        width: 100%;
+    }
+    .gender
+{   margin-left: 15%;
+    margin-top: 10px;
+}
+.city
+{   margin-left: 15%;    
+    margin-top: 10px;
+}
+.pw i 
+{
+    position: absolute;
+}
+.pw
+{   
+    /* width: 100%; */
+    margin-left: 15%;
+    margin-top: 10px;
+    display: inline-block;
+}
+.fa-lock
+{
+padding: 5px;
+}
+.pinput
+{
+     border-radius: 5px;
+     width: 100%;
+     padding: 5px;
+     text-align: center;
+}
+.confirm
+{
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 47px;
+}
+.confirm i
+{
+    position: absolute;
+}
+.cinput
+{
+     border-radius: 5px;
+     width: 100%;
+     padding: 5px;
+     text-align: center;
+}
+
+   .button
+   {   margin-top: 20px;
+       margin-left:40%;
+       /* font-family: pacifico; */
+   }
+   .message{
+       margin-left: 30%;
+   }
+      
+}

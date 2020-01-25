@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/00744c2070.js"></script>
+    <style>
+          #my_camera{
+        width: 320px;
+        height: 240px;
+        border: 1px solid black;
+    }
+    </style>
+</head>
+<link rel="stylesheet" href="jugaad.css">
+<body>
+    <div class="main1">
+        <div class="header">
+            
+            <div class="head">
+             <div class="subhead1">Smart Voting</div>
+            
+            </div>
+        
+    </div>
+    <div class="main2">
+        <div class="wall">
+           <div class="walltext"> 
+            <div class="walltext1">Let's make</div> 
+            <div class="walltext2">Future Better</div>
+            
+        </div>
+        </div>
+        <div class="form">
+            <div class="headingform">Input You Id for verification</div>
+            <form>
+            <div class="name">
+                <div class="first">
+                <span><i class="fas fa-user "></span></i>
+                <div class="input"><input class="finput" type="number" placeholder="Adhaar Number" required></div>
+                </div>
+             </div>
+                             <div>         
+            
+           <div class="pw">
+            <span><i class="fas fa-user "></span></i>
+               <div class="input"><input class="pinput" type="number" placeholder="Voter ID" required></div>     
+            </div>>
+                       
+            <div class="button"><input class="sinput" type="submit" value="SEND OTP"></div>
+        </form>
+            
+    </div>
+    
+</div>
+<div class="photo">
+
+    <div id="my_camera"></div>
+	<input type=button value="Take Your Photo" onClick="take_snapshot()">
+	
+    <div id="results" ></div>
+	
+	<!-- Webcam.min.js -->
+    <script type="text/javascript" src="webcamjs/webcam.min.js"></script>
+
+	<!-- Configure a few settings and attach camera -->
+	<script language="JavaScript">
+		Webcam.set({
+			width: 320,
+			height: 240,
+			image_format: 'jpeg',
+			jpeg_quality: 90
+		});
+		Webcam.attach( '#my_camera' );
+	</script>
+	<!-- A button for taking snaps -->
+	
+	<!-- Code to handle taking the snapshot and displaying it locally -->
+	<script language="JavaScript">
+
+		function take_snapshot() {
+			
+			// take snapshot and get image data
+			Webcam.snap( function(data_uri) {
+				// display results in page
+				document.getElementById('results').innerHTML = 
+					'<img src="'+data_uri+'"/>';
+			} );
+		}
+	</script>
+
+</div>
+
+</body>
+</html>
