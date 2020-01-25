@@ -1,0 +1,40 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+
+.b  
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #49adb8;
+    /* border: 3px red dashed; */
+    height: 620px;
+    /* justify-contents: flex-start; */
+}
+.b1
+{
+    margin-top: 40px;
+    border: 3px red dashed;
+    /* height:50px; */
+    color: white;
+    background-color: black;
+    font-size: 40px;
+    text-align: center;
+}
+.ty
+{
+    margin-top: 80px;
+    color: whitesmoke;
+    text-align: center;
+    /* border: 4px black ridge; */
+    font-family: cursive;
+}
+.b2
+{
+    margin-top: 60px;
+    font-size: 40px;
+    text-align: center;
+    /* border: 3px crimson groove; */
+}
